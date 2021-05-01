@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="/Styles/style.scss">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </script>
     <script src="https://kit.fontawesome.com/b6a2b8371a.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/spotifyCurrentlyPlaying.js/dist/spotifyCurrentlyPlaying.min.js"></script>
@@ -15,32 +16,22 @@
     <script defer src="main.js"></script>
     <link href="styles.css" rel="stylesheet">
     <title>home</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
-    <meta name="description" content="F1shhh Portfolio" />
-    <meta property="og:title" content="f1shhh.club" />
-    <meta property="og:type" content="website" />
-    <meta property="og:description" content="F1shhh's Portfolio Site." />
-    <meta property="og:image" content="https://i.imgur.com/GbKl69O.jpg" />
-    <meta property="og:image:type" content="image/jpeg" />
-    <meta property="og:image:width" content="1280" />
-    <meta property="og:image:height" content="800" />
-    <meta property="og:url" content="https://f1shhh.club" />
-    <meta property="twitter:card" content="summary_large_image" />
 </head>
 <body>
     <div  id="welcomediv" >
         <h1 id="welcomeh1" class="animate__animated animate__backInDown">
             welcome.
         </h1>
-        <button  class="animate__animated animate__backInDown" id="darkmodetoggle" onclick="dmtoggle()"><i id="sun" class="fas fa-sun" onmousedown="on.play()" onmouseout="off.play()"></i><i id="moon" class="far fa-moon"></i></button>
+    
+        <button onmousedown="on.play()"  class="animate__animated animate__backInDown" id="dark-mode-toggle" class="dark-mode-toggle" onclick="dmtoggle()"><i class="fas fa-sun"></i><i class="far fa-moon"></i></button>
         <hr id="welcomedivider" class="animate__animated animate__backInDown">
         <h2 id="welcomeh2" class="animate__animated animate__backInDown">this is  my portfolio thing</h2>
         <p id="welcomep" class="animate__animated animate__backInDown">feel free to look around!</p>
         <hr  class="animate__animated animate__backInDown">
-        <a href="about" id="aboutlink" class="button hvr-grow">about </a>
-        <a  class="button hvr-grow" id="socialslink" href="socials" >socials </a>
-        <a href="imagehost" id="hostlink" class="button hvr-grow">host </a>
+        <a href="about.html" id="aboutlink" class="button hvr-grow">about </a>
+        <a  class="button hvr-grow" id="socialslink" href="socials.html" >socials </a>
+        <a href="imagehost.html" id="hostlink" class="button hvr-grow">host </a>
      </div>
-     <a href="surprise" id="surpriselink" class="button hvr-grow">surprise</a>
-</body>
+     <a href="surprise.html" id="surpriselink" class="button hvr-grow">surprise</a>
+    </body>
 </html>
