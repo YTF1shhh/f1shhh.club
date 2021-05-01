@@ -9,7 +9,7 @@ body {
     scroll-behavior: smooth;
 }
 
-body.light {
+body.darkmode {
     color: #292c35;
     background-color: #e5e7eb;
     z-index: 99;
@@ -62,7 +62,7 @@ body.light {
     font-size: 2vh;
   }
 
-  .light #hostlink {
+  .darkmode #hostlink {
       color: #292c35;
   }
   #socialslink {
@@ -71,7 +71,7 @@ body.light {
       padding: 5%;
       font-size: 2vh;
   }
-  .light #socialslink {
+  .darkmode #socialslink {
     color: #292c35;
   }
 
@@ -88,6 +88,18 @@ body.light {
     overflow-x: hidden;
     scroll-behavior: smooth;
   }
+  #surprisehtml.darkmode {
+    display: flex;
+    justify-content: center;
+  color : #292c35;
+  margin: 0px;
+  padding: 0px;
+  background-color: #e5e7eb;
+  font-family: 'Popins', sans-serif;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
 
   a {
       padding: 3%;
@@ -98,7 +110,7 @@ body.light {
     color: #e5e7eb;
     padding: 10%
 }
-.light #sociallink {
+.darkmode #sociallink {
     color: #292c35;
 }
 
@@ -117,15 +129,15 @@ body.light {
     display: none;
 }
 
-.light .fas.fa-sun {
+.darkmode .fas.fa-sun {
     display: none;
 }
-.light .far.fa-moon {
+.darkmode .far.fa-moon {
   display: block;
   color: #292c35;
 }
 
-.light #darkmodetoggle {
+.darkmode #darkmodetoggle {
     background-color: #fff;
     border: none;
     height: 3em;
@@ -137,7 +149,7 @@ body.light {
     font-size: 90%;
     position: absolute;
     top: 92%;
-    left: 90%;
+    left: 94%;
 }
 
 #aboutlink {
@@ -147,10 +159,30 @@ body.light {
     font-size: 2vh;
 }
 
-.light #aboutlink {
+.darkmode #aboutlink {
     color: #292c35;
 }
 
-.light #surpriselink {
+.darkmode #surpriselink {
     color: #292c35
+}
+#dark-mode-toggle {
+    border: none;
+    height: 30px;
+    width: 34px;
+    background-color: #000;
+    color: #e5e7eb;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 0.9vh;
+}
+.darkmode #dark-mode-toggle {
+    border: none;
+    height: 30px;
+    width: 34px;
+    background-color: #fff;
+    color: #e5e7eb;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 0.9vh;
 }
