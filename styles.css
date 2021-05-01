@@ -1,0 +1,156 @@
+body {
+    color : #e5e7eb;
+    margin: 0px;
+    padding: 0px;
+    background-color: #292c35;
+    font-family: 'Popins', sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body.light {
+    color: #292c35;
+    background-color: #e5e7eb;
+    z-index: 99;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#welcomediv {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -25%);
+
+}
+
+#welcomeh1 {
+    font-size: 5vh;
+}
+
+#welcomeh2{
+    font-size: 3vh;
+}
+
+#welcomep{
+    font-size: 2vh;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  #hostlink {
+    color: #e5e7eb;
+    text-decoration: none;
+    padding: 5%;
+    font-size: 2vh;
+  }
+
+  .light #hostlink {
+      color: #292c35;
+  }
+  #socialslink {
+      color: #e5e7eb;
+      text-decoration: none;
+      padding: 5%;
+      font-size: 2vh;
+  }
+  .light #socialslink {
+    color: #292c35;
+  }
+
+
+  #surprisehtml {
+      display: flex;
+      justify-content: center;
+    color : #e5e7eb;
+    margin: 0px;
+    padding: 0px;
+    background-color: #292c35;
+    font-family: 'Popins', sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+
+  a {
+      padding: 3%;
+      font-size: 2vh;
+  }
+
+#sociallink {
+    color: #e5e7eb;
+    padding: 10%
+}
+.light #sociallink {
+    color: #292c35;
+}
+
+#darkmodetoggle {
+    background-color: #000;
+    border: none;
+    height: 3em;
+    width: 3em;
+    border-radius: 10%;
+}
+
+.fas.fa-sun {
+    color: #e5e7eb;
+}
+.far.fa-moon{
+    display: none;
+}
+
+.light .fas.fa-sun {
+    display: none;
+}
+.light .far.fa-moon {
+  display: block;
+  color: #292c35;
+}
+
+.light #darkmodetoggle {
+    background-color: #fff;
+    border: none;
+    height: 3em;
+    width: 3em;
+    border-radius: 10%;
+}
+#surpriselink {
+    color: #e5e7eb;
+    font-size: 90%;
+    position: absolute;
+    top: 92%;
+    left: 94%;
+}
+
+#aboutlink {
+    color: #e5e7eb;
+    text-decoration: none;
+    padding: 5%;
+    font-size: 2vh;
+}
+
+.light #aboutlink {
+    color: #292c35;
+}
+
+.light #surpriselink {
+    color: #292c35
+}
