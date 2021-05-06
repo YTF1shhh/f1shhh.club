@@ -168,8 +168,8 @@ body.darkmode {
 }
 #dark-mode-toggle {
     border: none;
-    height: 25px;
-    width: 25px;
+    height: 40px;
+    width: 40px;
     background-color: #000;
     color: #e5e7eb;
     border-radius: 4px;
@@ -178,8 +178,8 @@ body.darkmode {
 }
 .darkmode #dark-mode-toggle {
     border: none;
-    height: 325px;
-    width: 25px;
+    height: 40px;
+    width: 40px;
     background-color: #fff;
     color: #e5e7eb;
     border-radius: 4px;
