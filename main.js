@@ -29,3 +29,7 @@ darkModeToggle.addEventListener('click', () => {
 var on = new Audio();
 on.src = "Sounds/on.mp3";
 
+setTimeout(function() {
+  $('.spinner-wrapper').fadeOut('fast');
+}, 400);
+
