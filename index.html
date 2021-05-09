@@ -24,7 +24,7 @@
     </div>
     <div  id="welcomediv" >
         <h1 id="welcomeh1" class="animate__animated animate__backInDown">
-            welcome.
+            welcome.                 
         </h1>
     
         <button onmousedown="on.play()"  class="animate__animated animate__backInDown" id="dark-mode-toggle" class="dark-mode-toggle" onclick="dmtoggle()"><i class="fas fa-sun"></i><i class="far fa-moon"></i></button>
@@ -32,10 +32,32 @@
         <h2 id="welcomeh2" class="animate__animated animate__backInDown">this is  my portfolio thing</h2>
         <p id="welcomep" class="animate__animated animate__backInDown">feel free to look around!</p>
         <hr  class="animate__animated animate__backInDown">
-        <a href="about" id="aboutlink" class="button hvr-grow">about </a>
-        <a  class="button hvr-grow" id="socialslink" href="socials" >socials </a>
-        <a href="imagehost" id="hostlink" class="button hvr-grow">host </a>
      </div>
-     <a href="surprise" id="surpriselink" class="button hvr-grow">surprise</a>
+     <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="about">about</a>
+        <a href="socials">socials</a>
+        <a href="imagehost">host</a>
+        <a href="surprise">surprise</a>
+      </div>
+      
+      
+      <label for="check">
+        <input type="checkbox" id="check" onclick="openNav()"/> 
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
+
+
     </body>
 </html>
