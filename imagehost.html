@@ -32,8 +32,31 @@
         <p class="animate__animated animate__backInDown"id="welcomep">it is private and <u>solely</u> for me</p>
         <p class="animate__animated animate__backInDown"id="welcomep">not that you wanted to use it but if you did... sorry to dissapoint you</p>
         <hr  class="animate__animated animate__backInDown ">
-        <a href="index" id="hostlink" class="button hvr-grow">home </a>
      </div>
      <script> src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/0.0.2/barba.min.js" </script>
-</body>
+     <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index">home</a>
+        <a href="socials">socials</a>
+        <a href="about">about</a>
+        <a href="surprise">surprise</a>
+      </div>
+      
+      
+      <label for="check">
+        <input type="checkbox" id="check" onclick="openNav()"/> 
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
+    </body>
 </html>
