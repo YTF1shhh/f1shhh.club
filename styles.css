@@ -59,7 +59,7 @@ body.darkmode {
     color: #e5e7eb;
     text-decoration: none;
     padding: 5%;
-    font-size: 2vh;
+    font-size: 1.8vh;
   }
 
   .darkmode #hostlink {
@@ -69,7 +69,7 @@ body.darkmode {
       color: #e5e7eb;
       text-decoration: none;
       padding: 5%;
-      font-size: 2vh;
+      font-size: 1.8vh;
   }
   .darkmode #socialslink {
     color: #292c35;
@@ -146,7 +146,7 @@ body.darkmode {
 }
 #surpriselink {
     color: #e5e7eb;
-    font-size: 90%;
+    font-size: 1.8;
     position: absolute;
     left: 50%;
     top: 92%;
@@ -157,7 +157,7 @@ body.darkmode {
     color: #e5e7eb;
     text-decoration: none;
     padding: 5%;
-    font-size: 2vh;
+    font-size: 1.8vh;
 }
 
 .darkmode #aboutlink {
@@ -175,7 +175,7 @@ body.darkmode {
     color: #e5e7eb;
     border-radius: 4px;
     text-align: center;
-    font-size: 1.1vh;
+    font-size: 1.3vh;
 }
 .darkmode #dark-mode-toggle {
     border: none;
@@ -243,3 +243,89 @@ body.darkmode {
     }
 
 }
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    border-radius: 20px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #e5e7eb;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    text-decoration: underline;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0px;
+    right: 200px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  
+  
+  label{
+    position: relative;
+    top: 10px;
+    display:flex;
+    flex-direction:column;
+    width: 70px;
+    cursor:pointer;
+  }
+  
+  label span{
+    background: #e5e7eb;
+    border-radius:10px;
+    height:5px;
+    margin: 7px 0;
+
+  
+  }
+  .darkmode label span {
+      background: #292c35;
+      
+  }
+  
+  
+  span:nth-of-type(1){
+    width:30%;
+    
+  }
+  
+  span:nth-of-type(2){
+    width:80%;
+  }
+  
+  
+  span:nth-of-type(3){
+    width:55%;
+   
+  }
+  
+  
+  input[type="checkbox"]{
+    display:none;
+  }
