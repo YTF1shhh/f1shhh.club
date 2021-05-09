@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>about</title>
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/b6a2b8371a.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/spotifyCurrentlyPlaying.js/dist/spotifyCurrentlyPlaying.min.js"></script>
     <link
@@ -32,8 +32,31 @@
         <p id="welcomep" class="animate__animated animate__backInDown">I'm a 14 year old self taught (sorta... w3 is pretty helpful 😋) HTML developer from the west coast US.</p>
         <p id="welcomep" class="animate__animated animate__backInDown">I don't know a lot of HTML but I know enought to make a few websites and make them look <i>okay</i>.</p>
         <hr  class="animate__animated animate__backInDown">
-        <a href="index" id="hostlink" class="button hvr-grow">home </a>
      </div>
+     <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index">home</a>
+        <a href="socials">socials</a>
+        <a href="imagehost">host</a>
+        <a href="surprise">surprise</a>
+      </div>
+      
+      
+      <label for="check">
+        <input type="checkbox" id="check" onclick="openNav()"/> 
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
     
 </body>
 </html>
