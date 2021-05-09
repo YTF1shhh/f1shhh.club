@@ -40,9 +40,32 @@
        <a id="sociallink" href="https://www.reddit.com/user/YT_F1shhh"target="_blank" rel="noreferrer" class="button hvr-grow animate__animated animate__backInDown"><i class="fab fa-reddit"></i></a>
        <a id="sociallink" href="mailto:f1sh@hectic.email"target="_blank" rel="noreferrer" class="button hvr-grow animate__animated animate__backInDown"><i class="far fa-envelope"></i></a>
         <hr  class="animate__animated animate__backInDown">
-        <a href="index" id="hostlink" class="button hvr-grow">home </a>
      </div>
      <script> src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/0.0.2/barba.min.js" </script>
-</body>
+     <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index">home</a>
+        <a href="about">about</a>
+        <a href="imagehost">host</a>
+        <a href="surprise">surprise</a>
+      </div>
+      
+      
+      <label for="check">
+        <input type="checkbox" id="check" onclick="openNav()"/> 
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
+    </body>
 </html>
 
